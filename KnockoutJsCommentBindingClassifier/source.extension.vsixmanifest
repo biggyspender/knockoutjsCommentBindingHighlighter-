@@ -5,6 +5,7 @@
     <DisplayName>KnockoutJsCommentBindingClassifier</DisplayName>
     <Description xml:space="preserve">Custom coloring for knockoutjs comment style bindings so it is easy to differentiate between standard html comments and knockout bindings contained within comments.</Description>
     <MoreInfo>https://github.com/biggyspender/knockoutjsCommentBindingHighlighter-</MoreInfo>
+    <License>LICENSE</License>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,]" />

@@ -1,1 +1,1 @@
-Custom coloring for knockoutjs comment style bindings so it is easy to differentiate between standard html comments and knockout bindings contained within comments.
+Custom coloring for knockoutjs comment style bindings in Visual Studio 2012+ so it is easy to differentiate between standard html comments and knockout bindings contained within comments.

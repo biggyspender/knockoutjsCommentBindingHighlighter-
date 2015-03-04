@@ -63,10 +63,8 @@ namespace KnockoutJsCommentBindingClassifier
 
             var knockoutNodePositions = snapshotLookups.GetOrAdd(textSnapshot, KnockoutNodePositions);
 
-            var spanPosition = span.Start.Position;
-
             var classificationSpans = knockoutNodePositions.Where(
-                np =>  np.Start >= spanPosition && np.Start < span.End.Position)
+                np =>  np.Start >= span.Start.Position && np.Start < span.End.Position)
                 .Select(
                     knp =>
                         new ClassificationSpan(new SnapshotSpan(textSnapshot, new Span(knp.Start, knp.Length)),

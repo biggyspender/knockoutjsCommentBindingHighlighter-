@@ -1,0 +1,1 @@
+Custom coloring for knockoutjs comment style bindings so it is easy to differentiate between standard html comments and knockout bindings contained within comments.

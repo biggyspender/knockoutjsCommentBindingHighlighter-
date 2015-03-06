@@ -65,11 +65,14 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xaml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheExtensions.cs" />
     <Compile Include="KnockoutJsCommentBindingClassifierFormat.cs" />
     <Compile Include="KnockoutJsCommentBindingClassifierType.cs" />
     <Compile Include="KnockoutJsCommentBindingClassifier.cs" />

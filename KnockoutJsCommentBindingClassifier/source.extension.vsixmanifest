@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="KnockoutJsCommentBindingClassifier..2e6bc460-fef1-46c1-bb75-772d02b0c705" Version="1.5" Language="en-US" Publisher="spender" />
+    <Identity Id="KnockoutJsCommentBindingClassifier..2e6bc460-fef1-46c1-bb75-772d02b0c705" Version="1.6" Language="en-US" Publisher="spender" />
     <DisplayName>KnockoutJsCommentBindingClassifier</DisplayName>
     <Description xml:space="preserve">Custom coloring for knockoutjs comment style bindings so it is easy to differentiate between standard html comments and knockout bindings contained within comments.</Description>
     <MoreInfo>https://github.com/biggyspender/knockoutjsCommentBindingHighlighter-</MoreInfo>
